@@ -1,3 +1,70 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: "Roboto","Roboto Black", "Roboto Italic", sans-serif;
+}
+
+/* HERO AND FOOTER */
+.hero,
+.footer,
+.header {
+    background-color: #1f2937;
+}
+
+/* HERO TITLE AND HEADER LOGO */
+.hero-title,
+.header .logo {
+    color: #f9faf8;
+}
+
+/* HERO TITLE */
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* HERO TEXT */
+.hero-subtext {
+
+}
+
+/* HEADER LOGO */
+.header .logo {
+    font-size: 24px;
+}
+
+/* HEADER LINKS AND HERO TEXT */
+.header .link,
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* INFORMATION TITLE */
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+/* CALL TO ACTION AND BUTTON SIGN UP  */
+.call {
+    background-color: #3882F6;
+}
+
+.sign-up {
+    color: #3882F6;
+}
+
+/* QUOTE SECTION */
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.signature {
+    font-weight: 700;
 }
