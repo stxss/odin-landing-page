@@ -82,9 +82,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 8px 48px;
+    margin: 8px 48px 0px 48px;
     padding: 32px;
-    
+    padding-bottom: 0;
 }
 
 .info-container {
@@ -98,23 +98,51 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .info {
-    margin: 8px 48px;
-    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    text-align: center;
+    gap: 8px;
 }
 
 .info img{
     border: solid #3882F6;
     border-radius: 20px;
     font-weight: 600;
-    /* margin: 8px 48px; */
+}
+
+.info .info-text {
+    display: flex;
+    margin: 5px;
 }
 
 /* CALL TO ACTION AND BUTTON SIGN UP  */
 .call {
     background-color: #3882F6;
+    color: #fff;
+    margin: 72px;
+    padding: 36px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    flex-shrink: 0;
+}
+
+.call-title {
+    font-weight: 900;
 }
 
 .sign-up {
@@ -125,11 +153,31 @@ body {
     border: 0;
     font-weight: 600;
     margin: 8px 48px;
+    /* this is the sign up for the hero section */
+}
+
+.call .sign-up {
+    background-color: #3882F6;
+    color:#fff;
+    padding: 0.4em 2em;
+    border-radius: 8px;
+    border-width: thin;
+    border: solid #fff;
+    font-weight: 600;
+    margin: 8px 8px;
+    display: flex;
+    flex-shrink: 0;
 }
 
 /* QUOTE SECTION */
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 32px;
 }
 
 .quote-text {
@@ -140,4 +188,15 @@ body {
 
 .signature {
     font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }
